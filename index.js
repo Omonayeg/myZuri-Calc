@@ -7,7 +7,9 @@ function myCalc() {
 
     if (isNaN(a) || isNaN(b)) {
         alert ("Please input a valid number");
-    } 
+    } else if (operator !== "+" || operator !== "-" || operator !== "x" || operator !== "/" || operator !== "%") {
+    alert ("Please input a valid operator");
+    }
 
     else {
     if (operator === "+") {
